@@ -7,3 +7,25 @@
 <h2><%= @print.creator_company %></h2>
 <%= image_tag @print.photo %>
 <h2><%= @print.created_at.strftime("%b %e, %Y - %l:%M%p") %></h2>
+
+<h2>Comments:</h2>
+<% @print.comments.each do |comment| %>
+  <p> User Commenter: <%= comment.username %> </p>
+  <p> Comment:<%= comment.content %> </p>
+  <%= link_to "delete", [comment.print, comment ], method: :delete %>
+<% end %>
+
+
+<h2>Add Comments</h2>
+<%= form_for ([@print, @print.comments.build]) do |f| %>
+  <p>
+    <%= f.label :username  %><br>
+    <%= f.text_field :username %>
+  </p>
+  <p>
+    <%= f.label :content %><br>
+    <%= f.text_area :content %>
+  </p>
+<p> <%= f.submit %> </p>
+
+<% end %>
