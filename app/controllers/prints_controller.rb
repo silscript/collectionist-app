@@ -16,6 +16,8 @@ class PrintsController < ApplicationController
   # Create the create route.
   def create
     @print = Print.create!(print_params)
+    @print.user = current_user
+    @print.save
 
     # Redirect it to the index page.
     redirect_to action: "index"
