@@ -5,10 +5,11 @@ class CreatePrints < ActiveRecord::Migration
       t.string :category
       t.string :creator_individual
       t.string :creator_company
+      t.string :creator_printer
       t.string :title
       t.string :photo
       t.string :series
-      t.string :purchase_date
+      t.string :purchase_year
       t.string :purchase_price
       t.timestamps null: false
     end
