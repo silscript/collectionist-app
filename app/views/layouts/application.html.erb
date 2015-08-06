@@ -9,11 +9,11 @@
 <body>
   <div class="site-container">
     <!-- Header & Navigation -->
-    <header class="site-header">
+    <header class="site-header overlay overlay-hugeinc">
+      <label for="op"></label>
       <nav class="site-nav">
         <ul class="nav-list">
           <li><%= link_to "The Collectionist", prints_path %></li>
-          <li><%= link_to "New Print", new_print_path %></li>
           <%= render 'devise/menu/login_items' %>
           <%= render 'devise/menu/registration_items' %>
         </ul>
@@ -29,6 +29,6 @@
     <footer class="site-footer">
       <p></p>
     </footer>
-  </div> <!-- Closes "" -->
+  </div> <!-- Closes "site-container" -->
 </body>
 </html>
