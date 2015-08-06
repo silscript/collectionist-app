@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Textural Series</title>
+  <title>The Collectionist</title>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -12,12 +12,16 @@
     <header class="site-header">
       <nav class="site-nav">
         <ul class="nav-list">
+          <li><%= link_to "The Collectionist", prints_path %></li>
+          <li><%= link_to "New Print", new_print_path %></li>
+          <%= render 'devise/menu/login_items' %>
+          <%= render 'devise/menu/registration_items' %>
         </ul>
       </nav>
     </header>
 
     <!-- Content -->
-    <main class="site-content grid">
+    <main class="site-content">
       <%= yield %>
     </main>
 
