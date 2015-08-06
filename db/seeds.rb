@@ -3,8 +3,8 @@ print_one = Print.create(
                           category: "Screen Print",
                           creator_individual: "Andrew Kolb", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
-                          title: "Home-Sweet Jellystone",
+                          creator_printer: "D&L",
+                          title: "Home Sweet Jellystone",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_AndrewKolb-YogiBear.jpg",
                           series: "Yogi Bear",
                           purchase_year: "2014",
@@ -16,7 +16,7 @@ print_two = Print.create(
                           category: "Screen Print",
                           creator_individual: "Anne Benjamin", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "The Two Mousketeers",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_AnneBenjamin-TomAndJerry.jpg",
                           series: "Tom & Jerry",
@@ -29,7 +29,7 @@ print_three = Print.create(
                           category: "Screen Print",
                           creator_individual: "Kilian Eng", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "Batman Beyond",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_KilianEng-BatmanBeyond.jpg",
                           series: "Batman",
@@ -42,7 +42,7 @@ print_four = Print.create(
                           category: "Screen Print",
                           creator_individual: "Tom Whalen", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "Aladdin",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_TomWhalen-Aladdin.jpeg",
                           series: "Aladdin",
@@ -55,7 +55,7 @@ print_five = Print.create(
                           category: "Screen Print",
                           creator_individual: "Tom Whalen", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "The Incredibles",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_TomWhalen-TheIncredibles.jpeg",
                           series: "The Incredibles",
@@ -68,7 +68,7 @@ print_six = Print.create(
                           category: "Screen Print",
                           creator_individual: "Dave Perillo", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "Winnie the Pooh",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_TomWhalen-WinnieThePooh.jpeg",
                           series: "Winnie the Pooh",
@@ -81,7 +81,7 @@ print_seven = Print.create(
                           category: "Screen Print",
                           creator_individual: "Tom Whalen", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "Coraline",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_TomWhalen-Coraline.jpeg",
                           series: "Coraline",
@@ -94,7 +94,7 @@ print_eight = Print.create(
                           category: "Screen Print",
                           creator_individual: "Tom Whalen", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "Frozen",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_TomWhalen-Frozen.jpeg",
                           series: "Frozen",
@@ -107,7 +107,7 @@ print_nine = Print.create(
                           category: "Screen Print",
                           creator_individual: "DKNG", 
                           creator_company: "Mondo",
-                          creator_printer: ""
+                          creator_printer: "",
                           title: "The Iron Giant",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_DKNG-TheIronGiant.jpg",
                           series: "The Iron Giant",
@@ -120,7 +120,7 @@ print_ten = Print.create(
                           category: "Screen Print",
                           creator_individual: "Tom Whalen", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "Teenage Mutant Ninja Turtles",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_TomWhalen-TMNT.jpg",
                           series: "Teenage Mutant Ninja Turtles",
@@ -133,7 +133,7 @@ print_eleven = Print.create(
                           category: "Screen Print",
                           creator_individual: "Tom Whalen", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "The Lego Movie",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_TomWhalen-TheLegoMovie.jpeg",
                           series: "The Lego Movie",
@@ -146,7 +146,7 @@ print_twelve = Print.create(
                           category: "Screen Print",
                           creator_individual: "Tom Whalen", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "Mad Monster Party",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_TomWhalen-MadMonsterParty.jpg",
                           series: "",
@@ -160,7 +160,7 @@ print_thirteen = Print.create(
                           category: "Screen Print",
                           creator_individual: "Olly Moss", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "Howl's Moving Castle, Variant",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_OllyMoss-HowlsMovingCastle.jpeg",
                           series: "Howl's Moving Castle",
@@ -173,7 +173,7 @@ print_fourteen = Print.create(
                           category: "Screen Print",
                           creator_individual: "Kilian Eng", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "The Terminator",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_KilianEng-TheTerminator.jpeg",
                           series: "The Terminator",
@@ -186,7 +186,7 @@ print_fifthteen = Print.create(
                           category: "Screen Print",
                           creator_individual: "Ken Taylor", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "The Dark Word",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_KenTaylor-Thor.jpeg",
                           series: "Thor",
@@ -199,7 +199,7 @@ print_sixteen = Print.create(
                           category: "Screen Print",
                           creator_individual: "Kevin Tong", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "The World's End",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_KevinTong-TheWorldsEnd.jpeg",
                           series: "The World's End",
@@ -212,7 +212,7 @@ print_seventeen = Print.create(
                           category: "Screen Print",
                           creator_individual: "Olly Moss", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "Spirited Away",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_OllyMoss-SpritedAway.jpeg",
                           series: "Spirited Away",
@@ -225,7 +225,7 @@ print_eightteen = Print.create(
                           category: "Screen Print",
                           creator_individual: "Tyler Stout", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "Django Unchained",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_TylerStout-DjanoUnchained.jpeg",
                           series: "Django Unchained",
@@ -238,7 +238,7 @@ print_nineteen = Print.create(
                           category: "Screen Print",
                           creator_individual: "Ken Taylor", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "An Unexpected Journey",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_KenTaylor-TheHobbit.jpg",
                           series: "The Hobbit",
@@ -251,7 +251,7 @@ print_twenty = Print.create(
                           category: "Screen Print",
                           creator_individual: "Martin Ansin", 
                           creator_company: "Mondo",
-                          creator_printer: "D&L"
+                          creator_printer: "D&L",
                           title: "Ghost in the Shell, Foil Variant",
                           photo: "https://dl.dropboxusercontent.com/u/9772835/Mondo%27s%20Posters/Mondo_MartinAnsin-GhostInTheShell.jpg",
                           series: "Ghost in the Shell",
