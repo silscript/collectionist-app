@@ -1,25 +1,28 @@
 // Import Google Fonts
-  @import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,300,300italic,900);
+  @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,700,900);
 
 // Base Brand Colors
-  $bc-primary: #ffffff;
-  $bc-secondary: #000000;
+  $bc-primary: #FFFFFF;
+  $bc-secondary: #ff0000;
   $fc-primary: #000000;
+  $fc-secoondary: #008F86;
+  $fc-tertiary: #AEAEAE;
 
 
 // Base Font Format
   $base-font-family: 'Merriweather', serif;
   $base-font-size: 1em;
-  $base-font-grid-header: 1em;
-  $base-font-cell-text: 1em;
-  $base-font-tile-text: 2em;
-  $base-font-tile-detail: 1em;
+  $base-font-print-header: 1.2em;
+  $base-font-print-text: 1em;
+  $base-font-line-height: 1.5em;
 
 
 // Base Font Weights
-  // $light: ;
-  // $regular: ;
-  // $bold: ;
+  $light: 300;
+  $light-italic: 300italic;
+  $normal: 400;
+  $bold: 700;
+  $bold-ultra: 900;
 
 // Base Styling Treatments
   $grid-margin: 1em;
@@ -31,7 +34,7 @@ html {
   background-color: $bc-primary;
   box-sizing: border-box;
   font-family: $base-font-family;
-  font-size: $base-font-size;
+  font-size: 12px;
 }
 
 *, *:before, *:after {
@@ -57,60 +60,53 @@ ul {
 
 // Content
 .site-content {
-  background-color: red;
   margin: 0 auto;
-  width: 90%;
+  max-width: 1600px;
 }
 
 .grid-column {
-  -webkit-column-gap: 10px;
-  -webkit-column-fill: auto;
-  -moz-column-gap: 10px;
-  -moz-column-fill: auto;
-  column-gap: 15px;
   column-fill: auto;
-}
 
+  @media (min-width: 600px) {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+  }
+
+  @media (min-width: 960px) {
+    -webkit-column-count: 4;
+       -moz-column-count: 4;
+            column-count: 4;
+  }
+}
 
 .grid-item {
   display: inline-block;
-  margin: 0 2px 15px;
-  padding: 15px;
-  padding-bottom: 5px;
-  opacity: 1;
-  transition: all .2s ease;
-}
+  overflow: hidden;
+  text-align: center;
 
-.grid-item img {
-  width: 100%;
-}
+  img {
+    width: 100%;
+  }
 
-.grid-item p {
-  color: #333;
-  margin: 0;
-}
+  h1 {
+    color: $fc-secoondary;
+    font-size: $base-font-print-header;
+    font-weight: $bold;
+    line-height: $base-font-line-height;
+  }
 
-@media (min-width: 600px) {
-  .grid-column {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
+  h2 {
+    color: $fc-tertiary;
+    font-size: $base-font-print-text;
+    font-weight: $light;
+    line-height: $base-font-line-height;
+  }
+
+  h3 {
+    color: $fc-tertiary;
+    font-size: $base-font-print-text;
+    font-weight: $light;
+    line-height: $base-font-line-height;
   }
 }
-
-@media (min-width: 960px) {
-  .grid-column {
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
-  }
-}
-
-@media (min-width: 1100px) {
-  .grid-column {
-    -webkit-column-count: 5;
-    -moz-column-count: 5;
-    column-count: 5;
-  }
-}
-
