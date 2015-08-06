@@ -1,0 +1,21 @@
+<!-- <div class="grid-column">
+  <% @variousUserPrints.each do |print| %>
+    <div class="grid-item">
+      <%= link_to image_tag(print.photo.to_s), print_path(print) %>
+      <h1><%= link_to print.title, print %></h1>
+      <h2><%= link_to print.creator_individual, print %></h2>
+      <h3><%= link_to print.creator_company, print %></h3>
+    </div>
+  <% end %>
+</div> -->
+
+<div class="grid-column">
+  <% current_user.prints.each do |print| %>
+    <div class="grid-item">
+      <%= link_to image_tag(print.photo.to_s), print_path(print) %>
+      <h1><%= link_to print.title, print %></h1>
+      <h2><%= link_to print.creator_individual, print %></h2>
+      <h3><%= link_to print.creator_company, print %></h3>
+    </div>
+  <% end %>
+</div>
