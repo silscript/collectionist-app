@@ -1,0 +1,9 @@
+<h2>Collection Edit Page</h2>
+
+<!-- Render the form. -->
+<%= render partial: "form" %>
+
+<!-- Delete print entry. -->
+<%= form_for @print, method: :delete do |f| %>
+  <%= f.submit "Delete!" %>
+<% end %>
