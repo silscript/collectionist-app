@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# Pry for Rails
+gem 'pry-rails'
+
 # Devise is a flexible authentication solution for Rails.
 gem 'devise'
 
