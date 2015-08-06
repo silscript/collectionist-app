@@ -1,0 +1,54 @@
+// Import Google Fonts
+  @import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,300,300italic,900);
+
+// Base Brand Colors
+  $bc-primary: #ffffff;
+  $bc-secondary: #000000;
+  $fc-primary: #000000;
+
+
+// Base Font Format
+  $base-font-family: 'Merriweather', serif;
+  $base-font-size: 1em;
+  $base-font-grid-header: 1em;
+  $base-font-cell-text: 1em;
+  $base-font-tile-text: 2em;
+  $base-font-tile-detail: 1em;
+
+
+// Base Font Weights
+  // $light: ;
+  // $regular: ;
+  // $bold: ;
+
+// Base Styling Treatments
+  $grid-margin: 1em;
+  $grid-padding: 1em;
+
+
+// Base Format
+html {
+  background-color: $bc-primary;
+  box-sizing: border-box;
+  font-family: $base-font-family;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $fc-primary;
+  text-decoration: none;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
