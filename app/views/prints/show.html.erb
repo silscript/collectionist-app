@@ -3,10 +3,17 @@
   <h2><%= @print.title %> <%= link_to "EDIT", edit_print_path(@print) %></h2>
 <% end %>
 
+<div class="print-info">
+<%= image_tag @print.photo %>
 <h2><%= @print.creator_individual %></h2>
 <h2><%= @print.creator_company %></h2>
-<%= image_tag @print.photo %>
+<h2><%= @print.creator_printer %></h2>
+<h2><%= @print.title %></h2>
+<h2><%= @print.series %></h2>
+<h2><%= @print.purchase_year %></h2>
+<h2><%= @print.category %></h2>
 <h2><%= @print.created_at.strftime("%b %e, %Y - %l:%M%p") %></h2>
+<div>
 
 <h2>Comments:</h2>
 <% @print.comments.each do |comment| %>
