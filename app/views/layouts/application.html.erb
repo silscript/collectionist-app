@@ -21,6 +21,7 @@
       </nav>
     </header>
 
+<% if user_signed_in? %>
     <!-- Menu Button -->
     <input type="checkbox" id="op"></input>
 
@@ -40,6 +41,7 @@
         </ul>
       </nav>
     </div>
+    <% end %>
 
     <!-- Content -->
     <main class="site-content">
