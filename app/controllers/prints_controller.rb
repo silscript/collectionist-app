@@ -4,7 +4,6 @@ class PrintsController < ApplicationController
   # Reverse the order of all print entries.
   def index
     @prints = Print.all.order(:id).reverse_order
-    @variousUserPrints = Print.where.not(user_id: current_user.id).reverse_order
   end
 
   # Create the new route.
