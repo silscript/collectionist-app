@@ -1,38 +1,48 @@
 // Import Google Fonts
-  @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,700,900);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,700,900);
+
+
+// Import Font Awesome Iconography
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 
 // Base Brand Colors
-  $bc-primary: #FFFFFF;
-  $bc-secondary: #ff0000;
-  $fc-primary: #000000;
-  $fc-secoondary: #52BBBC;
-  $fc-tertiary: #AEAEAE;
+$bc-primary: #52BBBC;
+$bc-secondary: #FFFFFF;
+$bc-tertiary: #AEAEAE;
+$fc-primary: #000000;
+$fc-secondary: #52BBBC;
+$fc-tertiary: #AEAEAE;
 
 
 // Base Font Format
-  $base-font-family: 'Merriweather', serif;
-  $base-font-size: 1em;
-  $base-font-print-header: 1.2em;
-  $base-font-print-text: 1em;
-  $base-font-line-height: 1.5em;
+$base-font-family: 'Merriweather', serif;
+$base-font-size: 1em;
+$base-font-print-header: 1em;
+$base-font-print-text: 1em;
+$base-font-line-height: 1.5em;
 
 
 // Base Font Weights
-  $light: 300;
-  $light-italic: 300italic;
-  $normal: 400;
-  $bold: 700;
-  $bold-ultra: 900;
+$light: 300;
+$light-italic: 300italic;
+$normal: 400;
+$bold: 700;
+$bold-ultra: 900;
 
 // Base Styling Treatments
-  $grid-margin: 1em;
-  $grid-padding: 1em;
+$grid-margin: 1em;
+$grid-padding: 1em;
+$margin-small: 1em;
+$padding-small: 1em;
+$padding-medium: 2em;
+$padding-large: 3em;
 
 
 // Base Format
 html {
-  background-color: $bc-primary;
+  background-color: $bc-secondary;
   box-sizing: border-box;
   font-family: $base-font-family;
   font-size: 12px;
@@ -59,12 +69,93 @@ ul {
 }
 
 
-// Content
+// Container
+.site-container {
+  // display: none;
+  padding: $padding-small;
+}
+
 .site-content {
   margin: 0 auto;
   max-width: 1600px;
 }
 
+#site-loader {
+    left: 0px;
+    top: 0px;
+    z-index: 9999;
+}
+
+
+// Button Menu
+.btn-container {
+  background: $bc-primary;
+  border: 0.5em solid $bc-secondary;
+  border-radius: 50%;
+  bottom: 2em;
+  box-shadow: 0 0 0.6em 0 rgba(0, 0, 0, 0.20);
+  height: 6em;
+  left: 50%;
+  margin-top: -3em;
+  margin-left: -3em;
+  padding-top: 0.8em;
+  position: fixed;
+  width: 6em;
+  text-align: center;
+  z-index: 9999;
+
+  a{
+    color: $bc-secondary;
+    font-size: 3em;
+    font-weight: 700;
+  }
+}
+
+
+// Header & Navigation
+.site-header {
+  background-color: $bc-secondary;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: $base-font-size;
+  font-weight: $bold;
+  line-height: 3em;
+  width: 100%;
+
+  li {
+    flex: 0 1 auto;
+    text-align: center;
+  }  
+  
+  li:nth-child(1) {
+    flex: 8 0 auto;
+    text-align: left;  
+  }
+
+  // a:link {
+  // }
+
+  // a:focus {
+  // }  
+
+  a:hover {
+    transition: 300ms; 
+  }
+
+  // a:active {
+  //   // color: $fc-secondary; 
+  // }
+}
+
+
+// Grid
 .grid-column {
   column-fill: auto;
 
@@ -83,15 +174,19 @@ ul {
 
 .grid-item {
   display: inline-block;
+  padding-bottom: $padding-medium;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   overflow: hidden;
   text-align: center;
 
   img {
+    padding-bottom: $padding-small;
     width: 100%;
   }
 
   h1 {
-    color: $fc-secoondary;
+    color: $fc-secondary;
     font-size: $base-font-print-header;
     font-weight: $bold;
     line-height: $base-font-line-height;
