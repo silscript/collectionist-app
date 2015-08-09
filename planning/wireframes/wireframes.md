@@ -4,9 +4,9 @@ A simple collection application for print collectors.
 #Wireframes
 (https://wireframe.cc/TNzrK4)
 
-![Image of Wireframe #01](https://dl.dropboxusercontent.com/u/9772835/Collectionist%20Wireframes/sbrown_wireframes_01.png)
+![Image of Wireframe #01](https://dl.dropboxusercontent.com/u/9772835/Collectionist%20Wireframes/sbrown_wireframes_01.jpg)
 
-![Image of Wireframe #02](https://dl.dropboxusercontent.com/u/9772835/Collectionist%20Wireframes/sbrown_wireframes_02.png)
+![Image of Wireframe #02](https://dl.dropboxusercontent.com/u/9772835/Collectionist%20Wireframes/sbrown_wireframes_02.jpg)
 
 ##Author
 - Email: siltastic@gmail.com
