@@ -1,15 +1,5 @@
 #Collectionist Appplication
-
-##User Stories
-Goal: As a user, I should be able to ...
-
-- Sign up, in order to start a collection.
-- Sign in, in order to create or edit a collection.
-- Create a collection in order to add my collected items.
-- Comment on other user's collections in order to express interest.
-- Edit a collection or item in order to update my collection.
-- Specify what type of collection in order to categorize.
-- Add detailed information in order to organizie my collection.
+A simple collection application for print collectors.
 
 ##Installation Instructions
 Either fork the repository into your account or clone it through terminal. Change to the directory to place the repository. Do not place it into a repository with git initialized.
