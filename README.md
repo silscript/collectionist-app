@@ -46,5 +46,5 @@ $ rails s
 
 ##Credits
 - All screen print images by Mondo.
-- Font by Eben Sorkin & Google Fonts.
+- Merriweather Font by Eben Sorkin & Google Fonts.
 - Font-Awesome Iconography by Dave Gandy & Fort Awesome
