@@ -33,17 +33,8 @@ $ git clone https://github.com/siltastic/collectionist-app.git
 
 ```console
 $ cd .../collectionist-app
-```
-
-```console
 $ bundle install
-```
-
-```console
 $ rake db:create db:migrate db:seed
-```
-
-```console
 $ rails s
 ```
 
