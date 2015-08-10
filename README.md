@@ -28,8 +28,8 @@ $ git clone https://github.com/siltastic/collectionist-app.git
 * Have PostgreSQL running to connect to the server.
 * Once repository is cloned, change directory to the repository.
 * In your CLI, do a bundle install to fetch gem metadata.
-* Create the database, migrate information, and seed data.
-* Run the rails application.
+* In your CLI, create the database, migrate information, and seed data.
+* In your CLI, run the rails application.
 
 ```console
 $ cd .../collectionist-app
