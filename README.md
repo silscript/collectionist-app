@@ -2,29 +2,50 @@
 A simple collection application for print collectors.
 
 ##Installation Instructions
-Either fork the repository into your account or clone it through terminal. Change to the directory to place the repository. Do not place it into a repository with git initialized.
+The instructions already assume that you have all the necessary installationEither fork the repository into your account or clone it through terminal. Change to the directory to place the repository. Do not place it into a repository with git initialized.
 
 ```console
-$ cd directory
+$ cd to_your_directory
 ```
 
 ######To fork:
 * In Github, select the 'Fork' button.
 * In Github, a new forked repository will be added to your account.
 * In Github, select and copy the HTTPS clone URL.
-* In Terminal, use the git clone command to clone the repository.
+* In your CLI, use the git clone command to clone the repository.
 * In your directory, the forked repository should be added.
 
 ######To clone:
 * In Github, select and copy the HTTPS clone URL.
-* In Terminal, use the git clone command to clone the repository.
+* In your CLI, use the git clone command to clone the repository.
 * In your directory, the cloned repository should be added.
 
 ```console
 $ git clone https://github.com/siltastic/collectionist-app.git
 ```
 
-Futher Instructions will be added in the near future.
+######To run the application:
+* Have PostgreSQL running to connect to the server.
+* Once repository is cloned, change directory to the repository.
+* In your CLI, do a bundle install to fetch gem metadata.
+* Create the database, migrate information, and seed data.
+* Run the rails application.
+
+```console
+$ cd .../collectionist-app
+```
+
+```console
+$ bundle install
+```
+
+```console
+rake db:create db:migrate db:seed
+```
+
+```console
+rails s
+```
 
 ##Author
 - Email: siltastic@gmail.com
