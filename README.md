@@ -54,4 +54,6 @@ $ rails s
 - Twitter: http://twitter.com/siltastic
 
 ##Credits
+- All screen print images by Mondo.
+- Font by Eben Sorkin & Google Fonts.
 - Font-Awesome Iconography by Dave Gandy & Fort Awesome
