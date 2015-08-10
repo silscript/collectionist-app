@@ -40,11 +40,11 @@ $ bundle install
 ```
 
 ```console
-rake db:create db:migrate db:seed
+$ rake db:create db:migrate db:seed
 ```
 
 ```console
-rails s
+$ rails s
 ```
 
 ##Author
