@@ -4,7 +4,9 @@ Rails.application.routes.draw do
   devise_for :users
 
   # Trigger the index action in our posts controller.
-  root to: 'prints#index'
+  # root to: 'prints#index'
+  root to: "pages#about"
+
 
   # Get the static pages.
   get '/about' => 'pages#about'

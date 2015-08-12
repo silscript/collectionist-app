@@ -1,4 +1,5 @@
 class PrintsController < ApplicationController
+skip_before_action :authenticate_user, only [:show]
 
   # Create the index route.
   # Reverse the order of all print entries.
@@ -10,7 +11,7 @@ class PrintsController < ApplicationController
   # Create a new print.
   def new
     @print = Print.new
-  end 
+  end
 
   # Create the create route.
   def create
@@ -55,7 +56,7 @@ class PrintsController < ApplicationController
   # Add strong params for privacy.
   # Create a help method for permissions and privacy (strong params).
   private
-  
+
   def print_params
     params.require(:print).permit(:category, :creator_individual, :creator_company, :title, :photo, :series, :purchase_year, :purchase_price, :user_id)
   end
