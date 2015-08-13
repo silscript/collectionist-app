@@ -80,6 +80,7 @@ ul {
   max-width: 1600px;
 }
 
+// any reason you're setting display none here?
 input[type="checkbox"]  {
   display: none;
 }
@@ -114,9 +115,9 @@ input[type="checkbox"]  {
   background-color: #000000;
 }
 
-
 // Primary Navigation
 .nav-list {
+  // Make sure to use proper vendor prefixes for non-standard properties
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -128,29 +129,29 @@ input[type="checkbox"]  {
   li {
     flex: 0 1 auto;
     text-align: center;
-  }  
-  
+  }
+
   li:nth-child(1) {
     flex: 8 0 auto;
-    text-align: left;  
+    text-align: left;
   }
 
   // a:link {
   // }
 
   // a:focus {
-  // }  
+  // }
 
   a:hover {
-    transition: 300ms; 
+    transition: 300ms;
   }
 
   // a:active {
-  //   // color: $fc-secondary; 
+  //   // color: $fc-secondary;
   // }
 }
 
-
+// I like this grid technique!
 // Simplified Grid
 .grid-column {
   -webkit-column-fill: auto;

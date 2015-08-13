@@ -1,7 +1,14 @@
+# Nice job creating beautiful and meaningful seed data.
+# one suggestion: make sure to create users and other associated objects,
+# and instead of using hard coded ids (e.g. user_id: 1), use variables:
+# user_one = User.create(name: "Silvia" .....)
+# print_one = user_one.prints.create(category: "Screen Print", ....)
+
+
 # User One
 print_one = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Andrew Kolb", 
+                          creator_individual: "Andrew Kolb",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "Home Sweet Jellystone",
@@ -14,7 +21,7 @@ print_one = Print.create(
 
 print_two = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Anne Benjamin", 
+                          creator_individual: "Anne Benjamin",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "The Two Mousketeers",
@@ -27,7 +34,7 @@ print_two = Print.create(
 
 print_three = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Kilian Eng", 
+                          creator_individual: "Kilian Eng",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "Batman Beyond",
@@ -40,7 +47,7 @@ print_three = Print.create(
 
 print_four = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Tom Whalen", 
+                          creator_individual: "Tom Whalen",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "Aladdin",
@@ -53,7 +60,7 @@ print_four = Print.create(
 
 print_five = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Tom Whalen", 
+                          creator_individual: "Tom Whalen",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "The Incredibles",
@@ -66,7 +73,7 @@ print_five = Print.create(
 
 print_six = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Dave Perillo", 
+                          creator_individual: "Dave Perillo",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "Winnie the Pooh",
@@ -79,7 +86,7 @@ print_six = Print.create(
 
 print_seven = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Tom Whalen", 
+                          creator_individual: "Tom Whalen",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "Coraline",
@@ -92,7 +99,7 @@ print_seven = Print.create(
 
 print_eight = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Tom Whalen", 
+                          creator_individual: "Tom Whalen",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "Frozen",
@@ -105,7 +112,7 @@ print_eight = Print.create(
 
 print_nine = Print.create(
                           category: "Screen Print",
-                          creator_individual: "DKNG", 
+                          creator_individual: "DKNG",
                           creator_company: "Mondo",
                           creator_printer: "",
                           title: "The Iron Giant",
@@ -118,7 +125,7 @@ print_nine = Print.create(
 
 print_ten = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Tom Whalen", 
+                          creator_individual: "Tom Whalen",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "Teenage Mutant Ninja Turtles",
@@ -131,7 +138,7 @@ print_ten = Print.create(
 
 print_eleven = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Tom Whalen", 
+                          creator_individual: "Tom Whalen",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "The Lego Movie",
@@ -144,7 +151,7 @@ print_eleven = Print.create(
 
 print_twelve = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Tom Whalen", 
+                          creator_individual: "Tom Whalen",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "Mad Monster Party",
@@ -158,7 +165,7 @@ print_twelve = Print.create(
 # User Two
 print_thirteen = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Olly Moss", 
+                          creator_individual: "Olly Moss",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "Howl's Moving Castle, Variant",
@@ -171,7 +178,7 @@ print_thirteen = Print.create(
 
 print_fourteen = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Kilian Eng", 
+                          creator_individual: "Kilian Eng",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "The Terminator",
@@ -184,7 +191,7 @@ print_fourteen = Print.create(
 
 print_fifthteen = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Ken Taylor", 
+                          creator_individual: "Ken Taylor",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "The Dark Word",
@@ -197,7 +204,7 @@ print_fifthteen = Print.create(
 
 print_sixteen = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Kevin Tong", 
+                          creator_individual: "Kevin Tong",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "The World's End",
@@ -210,7 +217,7 @@ print_sixteen = Print.create(
 
 print_seventeen = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Olly Moss", 
+                          creator_individual: "Olly Moss",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "Spirited Away",
@@ -223,7 +230,7 @@ print_seventeen = Print.create(
 
 print_eightteen = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Tyler Stout", 
+                          creator_individual: "Tyler Stout",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "Django Unchained",
@@ -236,7 +243,7 @@ print_eightteen = Print.create(
 
 print_nineteen = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Ken Taylor", 
+                          creator_individual: "Ken Taylor",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "An Unexpected Journey",
@@ -249,7 +256,7 @@ print_nineteen = Print.create(
 
 print_twenty = Print.create(
                           category: "Screen Print",
-                          creator_individual: "Martin Ansin", 
+                          creator_individual: "Martin Ansin",
                           creator_company: "Mondo",
                           creator_printer: "D&L",
                           title: "Ghost in the Shell, Foil Variant",

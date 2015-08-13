@@ -1,4 +1,8 @@
 <!-- Only allow user to edit their own posts. -->
+<!-- It's good to hide this link if the user isn't the owner of the print,
+but you also need code in the controller to ensure a user doesn't just change
+the ID in a URL to edit someone else's print -->
+
 <% if @print.user_id == current_user.id %>
   <h2><%= @print.title %> <%= link_to "EDIT", edit_print_path(@print) %></h2>
 <% end %>

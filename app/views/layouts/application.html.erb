@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="site-container">
-    <!-- Header & Navigation -->
+    Header & Navigation
     <header class="site-header">
       <nav class="site-nav">
         <ul class="nav-list">
@@ -21,8 +21,8 @@
       </nav>
     </header>
 
-<% if user_signed_in? %>
-    <!-- Menu Button -->
+  <% if user_signed_in? %>
+    Menu Button
     <input type="checkbox" id="op"></input>
 
     <div class="button-nav">
@@ -41,14 +41,15 @@
         </ul>
       </nav>
     </div>
+    <!-- make sure your ERB tags are aligned properly -->
     <% end %>
 
-    <!-- Content -->
+    Content
     <main class="site-content">
       <%= yield %>
     </main>
 
-    <!-- Footer -->
+    Footer
     <footer class="site-footer">
       <p></p>
     </footer>
