@@ -1,3 +1,4 @@
+# nice job on having clean routes!
 Rails.application.routes.draw do
 
   # Devise

@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20150805190647) do
     t.integer  "print_id"
     t.integer  "user_id"
     t.string   "content"
+    # does a comment need a user name if it's associated with a user via `user_id`?
     t.string   "username"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
